@@ -39,12 +39,12 @@ Task 1: Scanning Local Network for Open Ports using Nmap on Kali Linux
 
 ## Step 6 : Analyze with Wireshark
 - Captured packets during a rescan.
-- Filtered for `tcp.port == 53` – observed SYN-ACK responses confirming port 53 is open on 192.168.117.2.
+- Filtered for `tcp.port == 53` – SYN-ACK responses confirming port 53 is open on 192.168.117.2.
 - This visualized the SYN scan process.
-  <img width="1353" height="420" alt="using wire shark to analize the port 58" src="https://github.com/user-attachments/assets/90acb1d9-5c2b-40e4-8909-50cd19b9ce55" />
+<img width="1353" height="420" alt="using wire shark to analize the port 58" src="https://github.com/user-attachments/assets/90acb1d9-5c2b-40e4-8909-50cd19b9ce55" />
 
 ## Step 7 : Research Common Services
-- **Port 53/tcp on 192.168.117.2**: DNS (Domain Name System) service. Used for name resolution. Researched via `nmap -sV 192.168.117.2` (showed VMware DNS) and online resources [(e.g., IANA port list)](https://www.geeksforgeeks.org/computer-networks/50-common-ports-you-should-know/).
+- **Port 53/tcp on 192.168.117.2**: DNS (Domain Name System) service. Used for name resolution. Researched via `nmap -sV 192.168.117.2` (showed VMware DNS) and online resources (https://www.geeksforgeeks.org/computer-networks/50-common-ports-you-should-know/).
 - Filtered/closed ports indicate no other services exposed.
 
 ## Step 8 : Potential Security Risks

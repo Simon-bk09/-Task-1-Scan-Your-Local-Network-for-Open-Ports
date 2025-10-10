@@ -10,12 +10,12 @@ Task 1: Scanning Local Network for Open Ports using Nmap on Kali Linux
   
 ## Step 1: Veryfing tool
 - Command : Running `nmap --version` to check the tool is installed or not.
-- <img width="648" height="154" alt="nmap version" src="https://github.com/user-attachments/assets/39b28511-a754-44f8-af35-7300e49d9bdc" />
+<img width="648" height="154" alt="nmap version" src="https://github.com/user-attachments/assets/39b28511-a754-44f8-af35-7300e49d9bdc" />
 
 ## Step 2: Finding Local ip range
 - Checking ip address, sudnetmask in Treminal using **ip addr show** command
   
-- <img width="801" height="262" alt="ip Address and class" src="https://github.com/user-attachments/assets/ce697c63-a3fd-47da-96a2-e7f8bbf45d96" />
+<img width="801" height="262" alt="ip Address and class" src="https://github.com/user-attachments/assets/ce697c63-a3fd-47da-96a2-e7f8bbf45d96" />
 
 ## Step 3: Running Nmap command 
 - Command : Running `nmap -sS 192.168.117.129/24` (TCP SYN scan).
@@ -26,7 +26,7 @@ Task 1: Scanning Local Network for Open Ports using Nmap on Kali Linux
 - Command : Running `nmap -sS 192.168.117.129/24 -oN scan_result.txt`
 - Scan completed successfully in 8.51 seconds, detecting 4 hosts up.
 
-  <img width="887" height="519" alt="Nmap scan result" src="https://github.com/user-attachments/assets/dbd4847e-ae50-48e6-af7a-c33a767fda46" />
+<img width="887" height="519" alt="Nmap scan result" src="https://github.com/user-attachments/assets/dbd4847e-ae50-48e6-af7a-c33a767fda46" />
 - Saved as `scan_results.txt` using `-oN` flag.
 
 ## Step 5 : Note Down IP Addresses and Open Ports

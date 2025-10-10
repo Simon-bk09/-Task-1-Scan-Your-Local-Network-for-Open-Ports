@@ -58,12 +58,5 @@ Task 1: Scanning Local Network for Open Ports using Nmap on Kali Linux
 ## Step 9 : Save scan results
 - Text File : Stored in `scan_result.txt` As shown above.
 
-#### Conclusiom :
+# Conclusion :
 This task help us to understand the use of tools like `Nmap` and `WireShark` to scan the network and analysing the states of ports like (open, close).
-
-
-
-
-
-
-

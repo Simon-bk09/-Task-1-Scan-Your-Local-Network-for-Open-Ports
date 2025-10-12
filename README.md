@@ -1,20 +1,20 @@
 Table of content
 ================
 * [-Task-1-Scan-Your-Local-Network-for-Open-Ports](##-Task-1-Scan-Your-Local-Network-for-Open-Ports)
-    * [Task 1](#Task1)
-      * [Objective](#Objective)
-      * [Tools used](#Toolsused)
-    * [Step 1: Veryfing tool](#Step1:Veryfingtool)
-    * [Step 2: Finding Local ip range](#Step2:FindingLocaliprange)
-    * [Step 3: Running Nmap command](#Step3:RunningNmapcommand)
-    * [Step 4: Scan result and storing in txt format](#Step4:Scanresultandstoringintxtformat)
-    * [Step 5 : Note Down IP Addresses and Open Ports](#Step5:NoteDownIPAddressesandOpenPorts)
-    * [Step 6 : Analyze with Wireshark](#Step6:AnalyzewithWireshark)
-    * [Step 7 : Research Common Services](#Step7:ResearchCommonServices)
-    * [Step 8 : Potential Security Risks](#Step8:PotentialSecurityRisks)
-    * [Step 9 : Save scan results](#Step9:Savescanresults)
-    * [Conclusion :](#Conclusion:)
-  
+ * [Task 1](#Task1)
+   * [Objective](#Objective)
+   * [Tools used](#Toolsused)
+ * [Step 1: Veryfing tool](##Step1:Veryfingtool)
+ * [Step 2: Finding Local ip range](#Step2:FindingLocaliprange)
+ * [Step 3: Running Nmap command](#Step3:RunningNmapcommand)
+ * [Step 4: Scan result and storing in txt format](#Step4:Scanresultandstoringintxtformat)
+ * [Step 5: Note Down IP Addresses and Open Ports](#Step5:NoteDownIPAddressesandOpenPorts)
+ * [Step 6: Analyze with Wireshark](#Step6:AnalyzewithWireshark)
+ * [Step 7: Research Common Services](#Step7:ResearchCommonServices)
+ * [Step 8: Potential Security Risks](#Step8:PotentialSecurityRisks)
+ * [Step 9: Save scan results](#Step9:Savescanresults)
+ * [Conclusion :](#Conclusion:)
+
 
 # -Task-1-Scan-Your-Local-Network-for-Open-Ports
 
